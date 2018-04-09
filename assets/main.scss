@@ -51,8 +51,9 @@ body {
   border-radius: 5px;
   background-color: rgba(238, 238, 238, 0.8);
   box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
-  margin: 10px auto 10px;
+  margin: 15px auto 15px;
   flex-wrap: wrap;
+  color: rgba(66, 66, 66, 0.8);
 }
 
 .buttons {
@@ -114,5 +115,5 @@ body {
     text-decoration: none;
     text-indent: 1em;
     font-size: 14pt;
-    color: #eee;
+    color: rgba(238, 238, 238, 0.8);
 }
