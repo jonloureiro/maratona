@@ -1,0 +1,8 @@
+
+title: Projeto Maratona de Programação
+email: jonathan.loureiro.m@gmail.com
+baseurl: "/maratona"
+url: "jonloureiro.github.io"
+
+markdown: kramdown
+permalink: /:title

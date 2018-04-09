@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/maratona/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/maratona/" rel="alternate" type="text/html" /><updated>2018-04-08T22:44:13-04:00</updated><id>http://localhost:4000/maratona/</id><title type="html">Projeto Maratona de Programação</title><entry><title type="html">Exercícios Introdutório</title><link href="http://localhost:4000/maratona/aula1" rel="alternate" type="text/html" title="Exercícios Introdutório" /><published>2016-03-17T00:00:00-04:00</published><updated>2016-03-17T00:00:00-04:00</updated><id>http://localhost:4000/maratona/aula1</id><content type="html" xml:base="http://localhost:4000/maratona/aula1">&lt;h1 id=&quot;aula-1&quot;&gt;AULA 1&lt;/h1&gt;
+
+&lt;h2 id=&quot;aula-1-1&quot;&gt;AULA 1&lt;/h2&gt;
+
+&lt;h3 id=&quot;aula-1-2&quot;&gt;AULA 1&lt;/h3&gt;
+
+&lt;h4 id=&quot;aula-1-3&quot;&gt;AULA 1&lt;/h4&gt;
+
+&lt;h5 id=&quot;aula-1-4&quot;&gt;AULA 1&lt;/h5&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit minima eum enim itaque saepe, a illum mollitia ducimus corporis aliquid error, neque quisquam sequi quaerat nemo quos non quasi, rerum.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;palavra&lt;/li&gt;
+  &lt;li&gt;palavra&lt;/li&gt;
+  &lt;li&gt;palavra&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;palavra&lt;/li&gt;
+  &lt;li&gt;palavra&lt;/li&gt;
+  &lt;li&gt;palavra&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">AULA 1</summary></entry><entry><title type="html">Introdução</title><link href="http://localhost:4000/maratona/aula0" rel="alternate" type="text/html" title="Introdução" /><published>2016-03-17T00:00:00-04:00</published><updated>2016-03-17T00:00:00-04:00</updated><id>http://localhost:4000/maratona/aula0</id><content type="html" xml:base="http://localhost:4000/maratona/aula0">&lt;h1 id=&quot;aula-0&quot;&gt;AULA 0&lt;/h1&gt;
+
+&lt;h2 id=&quot;aula-0-1&quot;&gt;AULA 0&lt;/h2&gt;
+
+&lt;h3 id=&quot;aula-0-2&quot;&gt;AULA 0&lt;/h3&gt;
+
+&lt;h4 id=&quot;aula-0-3&quot;&gt;AULA 0&lt;/h4&gt;
+
+&lt;h5 id=&quot;aula-0-4&quot;&gt;AULA 0&lt;/h5&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit minima eum enim itaque saepe, a illum mollitia ducimus corporis aliquid error, neque quisquam sequi quaerat nemo quos non quasi, rerum.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;palavra&lt;/li&gt;
+  &lt;li&gt;palavra&lt;/li&gt;
+  &lt;li&gt;palavra&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;palavra&lt;/li&gt;
+  &lt;li&gt;palavra&lt;/li&gt;
+  &lt;li&gt;palavra&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">AULA 0</summary></entry></feed>
