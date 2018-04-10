@@ -1,3 +1,5 @@
+@import "css/animate.min.css";
+
 body {
     font-family: 'Nunito', sans-serif;
     background: url("img/bg.jpg") no-repeat center center fixed;
@@ -35,9 +37,9 @@ body {
   width: 550px;
   border-radius: 5px;
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 25%;
+  left: 25%;
+  //transform: translate(-50%, -50%);
   text-align: center;
   background-color: rgba(238, 238, 238, 0.8);
   box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
