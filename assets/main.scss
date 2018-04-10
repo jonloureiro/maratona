@@ -1,5 +1,3 @@
-@import "css/animate.min.css";
-
 body {
     font-family: 'Nunito', sans-serif;
     background: url("img/bg.jpg") no-repeat center center fixed;
@@ -119,3 +117,9 @@ body {
     font-size: 14pt;
     color: rgba(238, 238, 238, 0.8);
 }
+
+/* animate.css -http://daneden.me/animate
+*  Version - 3.6.0
+*  Licensed under the MIT license - http://opensource.org/licenses/MIT
+*  Copyright (c) 2018 Daniel Eden */
+.animated{animation-duration:2s;animation-fill-mode:both}.animated.infinite{animation-iteration-count:infinite}@keyframes fadeIn{from{opacity:0}to{opacity:1}}.fadeIn{animation-name:fadeIn}
