@@ -1,3 +1,5 @@
+/*##### LAYOUT #####*/
+
 body {
     font-family: 'Nunito', sans-serif;
     background: url("img/bg.jpg") no-repeat center center fixed;
@@ -18,15 +20,68 @@ body {
 
 .footer {
   width: 100%;
-  height: 25px;
+  min-height: 25px;
+  max-height: 25px;
   background-color: rgba(238, 238, 238, 0.8);
   color: rgba(66, 66, 66, 0.8);
   text-indent: 1em;
+  font-size: 12pt;
 }
+
+@media only screen and (max-device-width: 400px){
+  .footer {
+    font-size: 11pt;
+  }
+}
+
+@media only screen and (max-device-width: 320px){
+  .footer {
+    font-size: 9.5pt;
+  }
+}
+
 .footer a {
   text-decoration: none;
   color: rgba(66, 66, 66, 0.8);
 }
+
+.division {
+    display: flex;
+    flex-direction: row;
+    min-height: calc(100% - 25px);
+    max-height: calc(100% - 25px);
+}
+
+.container {
+  flex-grow: 1;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
+/*##### MENU #####*/
+
+.sidenav {
+    max-width: 300px;
+    min-width: 300px;
+    background-color: #1D2127;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    text-indent: 1em;
+    font-size: 14pt;
+    color: rgba(238, 238, 238, 0.8);
+}
+
+/*##### CARDS #####*/
 
 .card h1 {
   color: rgba(66, 66, 66, 0.8);
@@ -35,13 +90,10 @@ body {
 }
 
 .card {
+  margin: 20% auto 0px;
   max-width: 90%;
   width: 550px;
   border-radius: 5px;
-  position: fixed;
-  top: 25%;
-  left: 25%;
-  //transform: translate(-50%, -50%);
   text-align: center;
   background-color: rgba(238, 238, 238, 0.8);
   box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
@@ -59,6 +111,8 @@ body {
   flex-wrap: wrap;
   color: rgba(66, 66, 66, 0.8);
 }
+
+/*##### BUTTONS #####*/
 
 .buttons {
   display: flex;
@@ -89,41 +143,11 @@ body {
   background: #2D9B42;
 }
 
-.division {
-    min-height: calc(100% - 25px);
-    display: flex;
-    flex-direction: row;
-}
+/*##### ARTICLE #####*/
 
-.container {
-  text-align: center;
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  overflow-x: hidden;
-}
-
-.sidenav {
-    max-width: 300px;
-    min-width: 300px;
-    background-color: #1D2127;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    display: flex;
-    flex-direction: column;
-}
-
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    text-indent: 1em;
-    font-size: 14pt;
-    color: rgba(238, 238, 238, 0.8);
-}
 
 /* animate.css -http://daneden.me/animate
 *  Version - 3.6.0
 *  Licensed under the MIT license - http://opensource.org/licenses/MIT
 *  Copyright (c) 2018 Daniel Eden */
-.animated{animation-duration:2s;animation-fill-mode:both}.animated.infinite{animation-iteration-count:infinite}@keyframes fadeIn{from{opacity:0}to{opacity:1}}.fadeIn{animation-name:fadeIn}
+.animated{animation-duration:1s;animation-fill-mode:both}.animated.infinite{animation-iteration-count:infinite}@keyframes fadeIn{from{opacity:0}to{opacity:1}}.fadeIn{animation-name:fadeIn}
