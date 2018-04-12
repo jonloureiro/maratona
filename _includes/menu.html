@@ -1,5 +1,4 @@
   <a href="{{ site.baseurl }}/">Início</a>
-  <a href="{{ site.baseurl }}/sobre">Sobre</a>
 {% for post in site.posts reversed %}
-  <a href="{{ site.baseurl }}{{ post.url }}"> {{ post.title }}</a>
+  <a href="{{ site.baseurl }}{{ post.url }}"> {{ post.menu }}</a>
 {% endfor %}
