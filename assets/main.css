@@ -99,7 +99,6 @@ body {
 }
 
 .container {
-  padding-top: 55px;
   padding-bottom: 10px;
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
@@ -126,8 +125,6 @@ body {
   padding-right: 2em;
   display: flex;
   align-items: center;
-  position: fixed;
-  top: 0;
   border-radius: 0px 3px 3px 0px;
   -webkit-box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
@@ -154,6 +151,9 @@ div.titlebar {
     min-width: 100%;
     max-width: 100%;
     text-indent: 2em;
+    z-index: 99;
+    position: fixed;
+    top: 0;
   }
 
   div.titlebar {
