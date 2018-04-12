@@ -3,11 +3,16 @@ layout: default
 ---
 <div class="division">
   <div class="container">
+    <div class="topbar animated fadeInLeft">
+      <div class="titlebar">
+        <h1>{{ page.topbar }}</h1>
+      </div>
+    </div>
     <div class="card-post animated fadeIn">
       {{ content }}
     </div>
   </div>
-  <div class="sidenav animated" id="sidenav">
+  <div class="sidenav animated fadeInRight" id="sidenav">
     {% include menu.html %}
   </div>
 </div>
