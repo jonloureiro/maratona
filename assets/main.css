@@ -120,6 +120,7 @@ body {
   background-color: var(--cor-bg);
   color: var(--cor-font);
   max-width: 50%;
+  min-width: 50%
   height: 50px;
   margin-top: 5px;
   padding-right: 2em;
