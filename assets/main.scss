@@ -1,7 +1,35 @@
+:root {
+  --cor-font: #E9E8E1;
+  --cor-bg: rgba(33, 33, 33, 0.9);
+}
+
+@font-face {
+    font-family: 'League Gothic';
+    src: url('font/leaguegothic-regular-webfont.eot');
+    src: url('font/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/leaguegothic-regular-webfont.woff') format('woff'),
+         url('font/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('font/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Simplifica';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Simplifica'), url('font/SIMPLIFICA Typeface.woff') format('woff');
+}
+
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
 /*##### LAYOUT #####*/
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-weight: normal;
   background: url("img/bg.jpg") no-repeat center center fixed;
   background-size: cover;
   background-color:#eee;
@@ -23,33 +51,38 @@ body {
 }
 
 .footer {
-  width: 100%;
+  font-family: 'Simplifica';
+  letter-spacing: 3px;
+  min-width: 100%;
+  max-width: 100%;
   min-height: 25px;
   max-height: 25px;
-  background-color: rgba(238, 238, 238, 0.8);
-  color: rgba(66, 66, 66, 0.8);
+  background-color: var(--cor-bg);
+  color: var(--cor-font);
   text-indent: 1em;
   font-size: 12pt;
+  display: flex;
+  flex-direction: row;
   -webkit-box-align: center;
      -ms-flex-align: center;
         align-items: center;
 }
 
-@media only screen and (max-device-width: 400px){
+@media only screen and (max-device-width: 400px) {
   .footer {
-    font-size: 11pt;
+    font-size: 10pt;
   }
 }
 
-@media only screen and (max-device-width: 320px){
+@media only screen and (max-device-width: 320px) {
   .footer {
-    font-size: 9.5pt;
+    font-size: 8.5pt;
   }
 }
 
 .footer a {
   text-decoration: none;
-  color: rgba(66, 66, 66, 0.8);
+  color: var(--cor-font);
 }
 
 .division {
@@ -65,6 +98,7 @@ body {
 }
 
 .container {
+  padding-bottom: 10px;
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
           flex-grow: 1;
@@ -81,9 +115,12 @@ body {
 /*##### MENU #####*/
 
 .sidenav {
+  font-family: 'Simplifica';
+  letter-spacing: 3px;
+  font-weight: bold;
   max-width: 300px;
   min-width: 300px;
-  background-color: #1D2127;
+  background-color: rgb(29,33,39,0.9);
   padding-top: 25px;
   padding-bottom: 25px;
   display: -webkit-box;
@@ -96,46 +133,62 @@ body {
 
 }
 
+@media only screen and (max-device-width: 767px) {
+  .sidenav {
+    display: none;
+  }
+}
+
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   text-indent: 1em;
   font-size: 14pt;
-  color: rgba(238, 238, 238, 0.8);
+  color: var(--cor-font);
 }
 
 /*##### CARDS #####*/
 
 .card h1 {
-  color: rgba(66, 66, 66, 0.8);
-  font-size: 300%;
+  font-family: 'League Gothic';
+  color: var(--cor-font);
+  font-size: 400%;
   font-weight: 400;
+  margin: 0px;
+}
+
+.card h2 {
+  font-family: 'League Gothic';
+  color: var(--cor-font);
+  font-size: 250%;
+  font-weight: 300;
+  margin: 0px;
 }
 
 .card {
   margin: 20% auto 0px;
-  max-width: 90%;
+  padding: 30px 10px 20px;
   width: 550px;
-  border-radius: 5px;
+  max-width: 93%;
+  border-radius: 3px;
   text-align: center;
-  background-color: rgba(238, 238, 238, 0.8);
+  background-color: var(--cor-bg);
   -webkit-box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
   line-height: normal;
-  padding: 10px;
 }
 
 .card-post {
   min-width: 90%;
-  max-width: 90%;
-  border-radius: 5px;
-  background-color: rgba(238, 238, 238, 0.8);
+  max-width: 98%;
+  border-radius: 3px;
+  background-color: var(--cor-bg);
   -webkit-box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
   margin: 15px auto 15px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  color: rgba(66, 66, 66, 0.8);
+  color: var(--cor-font);
 }
 
 /*##### BUTTONS #####*/
@@ -154,26 +207,28 @@ body {
 }
 
 .button {
+  font-family: sans-serif;
+  font-weight: bold !important;
   display: block;
   width: 130px;
-  height: 25px;
-  margin: 0px 5px 15px;
+  margin: 10px 5px 15px;
   padding: 10px;
   text-align: center;
   border-radius: 5px;
-  color: #eee;
-  font-weight: bold;
+  color: var(--cor-font);
   text-decoration: none;
-  font-size: 12pt;;
+  font-size: 12pt;
   font-weight: 100;
 }
 
 .button.blue {
-  background: #356CF1;
+  background: #3498db;
+  border:1px solid #3498db;
 }
 
 .button.green {
-  background: #2D9B42;
+  background: #2ecc71;
+  border:1px solid #2ecc71;
 }
 
 /*##### ARTICLE #####*/
@@ -183,4 +238,4 @@ body {
 *  Version - 3.6.0
 *  Licensed under the MIT license - http://opensource.org/licenses/MIT
 *  Copyright (c) 2018 Daniel Eden */
-.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}@-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}.fadeIn{-webkit-animation-name:fadeIn;animation-name:fadeIn}
+.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}@-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}.fadeIn{-webkit-animation-name:fadeIn;animation-name:fadeIn}@keyframes fadeInDown{from{opacity:0;transform:translate3d(0,-10%,0)}to{opacity:1;transform:translate3d(0,0,0)}}.fadeInDown{animation-name:fadeInDown}
