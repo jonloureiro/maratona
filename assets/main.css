@@ -195,12 +195,6 @@ div.titlebar {
 
 }
 
-@media only screen and (max-device-width: 767px) {
-  .sidenav {
-    display: none;
-  }
-}
-
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
@@ -251,7 +245,6 @@ div.titlebar {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   color: var(--cor-font);
-  padding: 15px 5px 15px;
 }
 
 /*##### BUTTONS #####*/
@@ -294,10 +287,37 @@ div.titlebar {
   border:1px solid #2ecc71;
 }
 
+@media only screen and (max-device-width: 767px) {
+  .sidenav {
+    display: none;
+  }
+  .card-post {
+    background: rgb(29,33,39,0.9);
+  }
+}
+
 /*##### ARTICLE #####*/
 
 article {
-  font-family: serif;
+  font-family: 'Simplifica';
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 120%;
+  text-align: justify;
+  padding: 15px 20px 10px 30px;
+  text-indent: 3em;
+}
+
+article ul,
+article ol {
+  text-indent: 0em;
+}
+
+@media only screen and (max-device-width: 768px) {
+  article {
+    padding: 5px 7px 3px 10px;
+    text-indent: 2em;
+  }
 }
 
 /* animate.css -http://daneden.me/animate
