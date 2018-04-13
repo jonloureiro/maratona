@@ -155,7 +155,7 @@ div.titlebar {
 .cardslack {
   animation-delay: 1.3s;
   background-color: var(--cor-bg);
-  margin-top: 7.5vh;
+  margin-top: calc(15vh - 26.5px);
   padding: 0.5em 2em 0.5em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -197,7 +197,7 @@ div.titlebar {
   }
 
   .cardslack {
-    margin-top: 5px;
+    margin-top: calc(10vh - 26.5px);
   }
 }
 
@@ -322,7 +322,7 @@ div.titlebar {
   }
 
   .card {
-    margin-top: 25%;
+    margin-top: 20vh;
   }
 
   .card-post {
