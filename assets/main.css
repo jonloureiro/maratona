@@ -437,11 +437,10 @@ div.titlebar {
 }
 
 @media only screen and (min-device-width: 768px) {
+  .titlebar input,
+  .titlebar label,
+  .titlebar span,
   .menumobile {
-    display: none;
-  }
-
-  div.buttonmenu {
     display: none;
   }
 }
