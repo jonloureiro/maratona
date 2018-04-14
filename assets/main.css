@@ -437,9 +437,9 @@ div.titlebar {
 }
 
 @media only screen and (min-device-width: 768px) {
-  .titlebar input,
-  .titlebar label,
-  .titlebar span,
+  .topbar input,
+  .topbar label,
+  .topbar span,
   .menumobile {
     display: none;
   }
