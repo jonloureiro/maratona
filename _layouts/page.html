@@ -7,11 +7,12 @@ layout: default
       <div class="titlebar">
         <h1>{{ page.topbar }}</h1>
       </div>
-      <div class="buttonmenu">
         <input type="checkbox" id="check">
         <label for="check"></label>
         <span></span>
-      </div>
+        <div class="menumobile">
+          {% include menu.html %}
+        </div>
     </div>
     <div class="card-post animated fadeIn">
       <article>
@@ -20,9 +21,6 @@ layout: default
     </div>
   </div>
   <div class="sidenav" id="sidenav">
-    {% include menu.html %}
-  </div>
-  <div class="menumobile" id="menumobile">
     {% include menu.html %}
   </div>
 </div>
