@@ -78,13 +78,13 @@ body {
 
 @media only screen and (max-device-width: 400px) {
   .footer {
-    font-size: 10pt;
+    font-size: 83%;
   }
 }
 
 @media only screen and (max-device-width: 320px) {
   .footer {
-    font-size: 8.5pt;
+    font-size: 70%;
   }
 }
 
@@ -126,6 +126,7 @@ body {
   -webkit-animation-delay: 0.2s;
           animation-delay: 0.2s;
   font-family: 'League Gothic';
+  letter-spacing: 1px;
   background-color: var(--cor-bg);
   color: var(--cor-font);
   max-width: 35vw;
@@ -156,6 +157,18 @@ div.titlebar {
   margin: 0px;
 }
 
+@media only screen and (max-device-width: 400px) {
+  .topbar {
+    font-size: 95%;
+  }
+}
+
+@media only screen and (max-device-width: 320px) {
+  .topbar {
+    font-size: 82%;
+  }
+}
+
 .cardslack {
   -webkit-animation-delay: 1.3s;
           animation-delay: 1.3s;
@@ -178,7 +191,7 @@ div.titlebar {
   fill: var(--cor-font);
 }
 
-@media only screen and (max-device-width: 767px) {
+@media only screen and (max-device-width: 1023px) {
   .container {
     padding-top: 55px;
   }
@@ -214,7 +227,7 @@ div.titlebar {
 .topbar label {
   padding-right: 1.5em;
   position: relative;
-  width: 38px;
+  width: 13vw;
   height: 38px;
   z-index: 98;
 }
@@ -302,7 +315,7 @@ div.titlebar {
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 14pt;
+  font-size: 16pt;
   color: var(--cor-font);
 }
 
@@ -332,6 +345,12 @@ div.titlebar {
   left: 0;
   opacity: 1;
   text-indent: 5em;
+}
+
+@media only screen and (max-device-width: 320px) {
+  .menumobile a {
+    font-size: 14pt;
+  }
 }
 
 /*##### CARDS #####*/
@@ -370,8 +389,8 @@ div.titlebar {
 .card-post {
   -webkit-animation-delay: 0.1s;
           animation-delay: 0.1s;
-  min-width: 95%;
   max-width: 95%;
+  width: 1024px;
   border-radius: 3px;
   background-color: var(--cor-bg);
   -webkit-box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
@@ -422,7 +441,7 @@ div.titlebar {
   border:1px solid #2ecc71;
 }
 
-@media only screen and (max-device-width: 767px) {
+@media only screen and (max-device-width: 1023px) {
   .sidenav {
     display: none;
   }
@@ -436,7 +455,7 @@ div.titlebar {
   }
 }
 
-@media only screen and (min-device-width: 768px) {
+@media only screen and (min-device-width: 1024px) {
   .topbar input,
   .topbar label,
   .topbar span,
@@ -450,9 +469,9 @@ div.titlebar {
 
 article {
   font-family: 'Simplifica';
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   font-weight: bold;
-  font-size: 120%;
+  font-size: 140%;
   text-align: justify;
   padding: 15px 20px 10px 30px;
   text-indent: 3em;
@@ -463,11 +482,10 @@ article ol {
   text-indent: 0em;
 }
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 1023px) {
   article {
     padding: 5px 7px 3px 10px;
     text-indent: 2em;
-  }
 }
 
 /* animate.css -http://daneden.me/animate
@@ -482,7 +500,7 @@ article ol {
 @keyframes fadeInDown{from{opacity:0;-webkit-transform:translate3d(0,-10%,0);transform:translate3d(0,-10%,0)}to{opacity:1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}.fadeInDown{-webkit-animation-name:fadeInDown;animation-name:fadeInDown}
 @-webkit-keyframes fadeInRight{from{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}
 @keyframes fadeInRight{from{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}.fadeInRight{-webkit-animation-name:fadeInRight;animation-name:fadeInRight}
-@media only screen and (min-device-width: 768px) {
+@media only screen and (min-device-width: 1024px) {
   @-webkit-keyframes fadeInLeft{from{-webkit-transform:translate3d(-5%,0,0);transform:translate3d(-5%,0,0)}to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}
   @keyframes fadeInLeft{from{-webkit-transform:translate3d(-5%,0,0);transform:translate3d(-5%,0,0)}to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}.fadeInLeft{-webkit-animation-name:fadeInLeft;animation-name:fadeInLeft}
 }
