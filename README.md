@@ -13,6 +13,8 @@
   [![](https://img.shields.io/github/stars/simple-icons/simple-icons.svg?style=social&label=Star)](https://github.com/simple-icons/simple-icons)
 - [**Animate.css**](https://daneden.github.io/animate.css/)
   [![](https://img.shields.io/github/stars/daneden/animate.css.svg?style=social&label=Star)](https://github.com/daneden/animate.css)
+- [**Autoprefixer**](http://autoprefixer.github.io/)
+  [![](https://img.shields.io/github/stars/autoprefixer/autoprefixer.github.io.svg?style=social&label=Star)](https://github.com/autoprefixer/autoprefixer.github.io)
 - [**League Gothic**](https://www.theleagueofmoveabletype.com/league-gothic)
   [![](https://img.shields.io/github/stars/theleagueof/league-gothic.svg?style=social&label=Star)](https://github.com/theleagueof/league-gothic/)
 - [**SIMPLIFICA Typeface**](https://www.behance.net/gallery/14209843/SIMPLIFICA-Typeface-Free)
