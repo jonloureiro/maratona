@@ -76,13 +76,13 @@ body {
         align-items: center;
 }
 
-@media only screen and (max-device-width: 400px) {
+@media only screen and (max-width: 400px) {
   .footer {
     font-size: 83%;
   }
 }
 
-@media only screen and (max-device-width: 320px) {
+@media only screen and (max-width: 320px) {
   .footer {
     font-size: 70%;
   }
@@ -157,13 +157,13 @@ div.titlebar {
   margin: 0px;
 }
 
-@media only screen and (max-device-width: 400px) {
+@media only screen and (max-width: 400px) {
   .topbar {
     font-size: 95%;
   }
 }
 
-@media only screen and (max-device-width: 320px) {
+@media only screen and (max-width: 320px) {
   .topbar {
     font-size: 82%;
   }
@@ -191,7 +191,7 @@ div.titlebar {
   fill: var(--cor-font);
 }
 
-@media only screen and (max-device-width: 1023px) {
+@media only screen and (max-width: 1023px) {
   .container {
     padding-top: 55px;
   }
@@ -347,7 +347,7 @@ div.titlebar {
   text-indent: 5em;
 }
 
-@media only screen and (max-device-width: 320px) {
+@media only screen and (max-width: 320px) {
   .menumobile a {
     font-size: 14pt;
   }
@@ -441,7 +441,7 @@ div.titlebar {
   border:1px solid #2ecc71;
 }
 
-@media only screen and (max-device-width: 1023px) {
+@media only screen and (max-width: 1023px) {
   .sidenav {
     display: none;
   }
@@ -455,7 +455,7 @@ div.titlebar {
   }
 }
 
-@media only screen and (min-device-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .topbar input,
   .topbar label,
   .topbar span,
@@ -482,7 +482,7 @@ article ol {
   text-indent: 0em;
 }
 
-@media only screen and (max-device-width: 1023px) {
+@media only screen and (max-width: 1023px) {
   article {
     padding: 5px 7px 3px 10px;
     text-indent: 2em;
@@ -500,7 +500,7 @@ article ol {
 @keyframes fadeInDown{from{opacity:0;-webkit-transform:translate3d(0,-10%,0);transform:translate3d(0,-10%,0)}to{opacity:1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}.fadeInDown{-webkit-animation-name:fadeInDown;animation-name:fadeInDown}
 @-webkit-keyframes fadeInRight{from{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}
 @keyframes fadeInRight{from{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}.fadeInRight{-webkit-animation-name:fadeInRight;animation-name:fadeInRight}
-@media only screen and (min-device-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   @-webkit-keyframes fadeInLeft{from{-webkit-transform:translate3d(-5%,0,0);transform:translate3d(-5%,0,0)}to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}
   @keyframes fadeInLeft{from{-webkit-transform:translate3d(-5%,0,0);transform:translate3d(-5%,0,0)}to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}.fadeInLeft{-webkit-animation-name:fadeInLeft;animation-name:fadeInLeft}
 }
