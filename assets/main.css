@@ -315,16 +315,17 @@ div.titlebar {
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 16pt;
   color: var(--cor-font);
 }
 
 .sidenav a {
   text-indent: 1em;
+  font-size: 16pt;
 }
 
 .menumobile {
   z-index: -1 !important;
+  font-size: 18pt;
   text-indent: -5em;
   background-color: rgb(33, 33, 33);
   width: 100%;
@@ -344,12 +345,12 @@ div.titlebar {
 #check:checked ~ .menumobile {
   left: 0;
   opacity: 1;
-  text-indent: 5em;
+  text-indent: 25vw;
 }
 
 @media only screen and (max-width: 320px) {
   .menumobile a {
-    font-size: 14pt;
+    font-size: 16pt;
   }
 }
 
