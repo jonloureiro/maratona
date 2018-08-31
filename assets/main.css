@@ -331,7 +331,7 @@ div.titlebar {
   width: 100%;
   padding-top: 55px;
   height: calc(100vh - 30px);
-  left: 100;
+  left: 100vw;
   top: 0;
   overflow: hidden;
   position: absolute;
